@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #14495e;
+  background-position: center;
+}
+.image{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width:100%;
+  text-align: center;
+
+}
+
+.eyes {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 110px;
+  height: 85px;
+  top: -55px;
+  left: 245px;
+  right: 10px;
+  background:white;
+  display: inline-block;
+  margin: 3px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width:60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  
+}
+.eyes1 {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye1 {
+  width: 120px;
+  height: 95px;
+  top: -115px;
+  left: -200px;
+  right: -100x;
+  background:white;
+  display: inline-block;
+  margin: 3px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+  width:60px;
+  height: 60px;
+  position: absolute;
+  color: blue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  
+}
